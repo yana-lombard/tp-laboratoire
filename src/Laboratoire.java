@@ -1,6 +1,5 @@
 public class Laboratoire {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
         Souris s1 = new Souris(50, "blanche", 2);
         Souris s2 = new Souris(45, "grise");
         Souris s3 = new Souris(s2);
@@ -11,6 +10,7 @@ public class Laboratoire {
         
         s1.vieillir();
         s1.vieillir();
+        
         System.out.println(s1);
         
         s1.evolue();
